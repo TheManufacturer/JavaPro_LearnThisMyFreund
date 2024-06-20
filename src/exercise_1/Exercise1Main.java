@@ -30,7 +30,6 @@ public class Exercise1Main {
     /**
      * Entry point of the program. Reads input numbers from the user
      * and checks if a given number is within a specified range.
-     *
      * Uses a try-with-resources block to manage a Scanner object for input.
      * Handles InputMismatchException when user input is not an integer.
      * Handles IllegalArgumentException when the number is not within the specified range.
