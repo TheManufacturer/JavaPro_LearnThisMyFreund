@@ -5,6 +5,18 @@ import java.util.Scanner;
 
 public class Exercise1Main {
 
+
+    /**
+     * #isNumberInRange methods :
+     * Checks if a number is within a specified range.
+     *
+     * @param number The number to check.
+     * @param min The minimum value of the range.
+     * @param max The maximum value of the range.
+     * @return true if the number is within the range, false otherwise.
+     * @throws IllegalArgumentException if the number is not within the range.
+     *
+     */
     public static boolean isNumberInRange(int number, int min, int max){
         if (number >= min && number <= max) {
             return true;
@@ -14,6 +26,17 @@ public class Exercise1Main {
                     + min + " to " + max  + ")");
         }
     }
+
+    /**
+     * Entry point of the program. Reads input numbers from the user
+     * and checks if a given number is within a specified range.
+     *
+     * Uses a try-with-resources block to manage a Scanner object for input.
+     * Handles InputMismatchException when user input is not an integer.
+     * Handles IllegalArgumentException when the number is not within the specified range.
+     *
+     * @param args Command-line arguments (not used in this program).
+     */
 
     public static void main(String[] args){
 
